@@ -1,0 +1,28 @@
+{
+  "name": "idler",
+  "version": "0.0.1",
+  "description": "Easy Idling for your Steam Account with Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/**/**.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DakshMiglani/Idler.git"
+  },
+  "keywords": [
+    "Idler",
+    "steam-idle",
+    "steam",
+    "Idler",
+    "nodejs",
+    "steam",
+    "idle"
+  ],
+  "author": "Daksh Miglani <hello@dak.sh> (https://dak.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DakshMiglani/Idler/issues"
+  },
+  "homepage": "https://github.com/DakshMiglani/Idler#readme"
+}
