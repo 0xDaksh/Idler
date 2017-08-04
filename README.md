@@ -1,4 +1,9 @@
 ## Easy Idling for your Steam Account with Node.js
+
+[![Build Status](https://travis-ci.org/DakshMiglani/Idler.svg?branch=master)](https://travis-ci.org/DakshMiglani/Idler)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/DakshMiglani/Idler/master/LICENSE.md)
+[![npm version](https://badge.fury.io/js/idler.png)](https://badge.fury.io/js/idler)
+
 > Idle Your Steam Account Easily.
 
 ### Possible Login Types
@@ -23,7 +28,7 @@ var idler = require('idler'),
         gameId: 440
     }
     idler(Obj).then((user) => {
-        // you can use user
+        // your steam-user
     }).catch(err => {
         // you can use err
     })
