@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/DakshMiglani/Idler/issues"
   },
-  "homepage": "https://github.com/DakshMiglani/Idler#readme"
+  "homepage": "https://github.com/DakshMiglani/Idler#readme",
+  "dependencies": {
+    "steam-user": "^3.21.7"
+  }
 }
