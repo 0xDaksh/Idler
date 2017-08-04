@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/DakshMiglani/Idler#readme",
   "dependencies": {
+    "steam-totp": "^2.0.1",
     "steam-user": "^3.21.7"
   }
 }
