@@ -8,12 +8,12 @@ describe('Idle Function', () => {
 })
 
 describe('Start Idling', () => {
-    it('should export an object', () => {
+    it('should export an promise', () => {
         expect(main({
             username: '123',
             password: '123',
             twoFactorCode: 'gg',
             gameId: '123'
-        })).to.be.a('object')
+        })).to.be.a('promise')
     })
 })
