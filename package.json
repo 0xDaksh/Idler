@@ -1,6 +1,6 @@
 {
   "name": "idler",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Easy Idling for your Steam Account with Node.js",
   "main": "index.js",
   "scripts": {
