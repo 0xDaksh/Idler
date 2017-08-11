@@ -15,7 +15,7 @@
 - Username (Mandatory)
 - Password (Mandatory)
 - gameId (Mandatory)
-- Method Object
+- Method Object (Can have any of the three following values)
     - twoFactorCode
         - value (your shared secret)
     - authCode
