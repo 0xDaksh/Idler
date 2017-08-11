@@ -9,29 +9,29 @@
 ### Possible Login Types
 - twoFactorCode (your steam account shared secret)
 - authCode (your steam account auth code)
+- Manual (this would prompt for steamGuard Code on the terminal)
 
-### Idler Object Parameters
+### Idler Class Parameters
 - Username (Mandatory)
 - Password (Mandatory)
 - gameId (Mandatory)
-- twoFactorCode (Optional)
-- AuthCode (Optional)
-
+- Method Object
+    - twoFactorCode
+        - value (your shared secret)
+    - authCode
+        - value (your email auth code)
+    - Manual (this would prompt for steamGuard Code on the terminal)
 ### How to Use?
 
 ```javascript
-var idler = require('idler'),
-    Obj = {
-        username: '123',
-        password: '123',
-        twoFactorCode: 'gg',
-        gameId: 440
-    }
-    idler(Obj).then((user) => {
-        // your steam-user
-    }).catch(err => {
-        // you can use err
-    })
+var Idler = require('idler');
+var user = new Idler('username', 'password', 'gameId', {method: 'twoFactorCode', value: 'YourSharedSecret'})
+user.idle().then(User => {
+    // on login it would send the User Object
+}).catch(err => {
+    // on err it would send the Err Object
+    throw err;
+})
 ```
 
 ## License
